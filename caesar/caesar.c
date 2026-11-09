@@ -22,7 +22,7 @@ int main(int argc, string argv[])           // Main function that takes command 
             return 1;
         }
     }
-    // Call the cypher function with the provided key
+    // Call the cipher function with the provided key
     cipher(argv[1]);
     return 0;
 }
