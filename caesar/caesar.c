@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void cypher(string key);        // Function prototype for cypher function
+void cipher(string key);        // Function prototype for cypher function
 
 int main(int argc, string argv[])           // Main function that takes command line arguments
 {
@@ -23,12 +23,12 @@ int main(int argc, string argv[])           // Main function that takes command 
         }
     }
     // Call the cypher function with the provided key
-    cypher(argv[1]);
+    cipher(argv[1]);
     return 0;
 }
 
 // Function to perform the Caesar cipher encryption
-void cypher(string key)
+void cipher(string key)
 {
     // Convert the key from string to integer
     int k = atoi(key);
